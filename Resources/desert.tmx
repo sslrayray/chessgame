@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="rq" tilewidth="128" tileheight="128">
+  <image source="bigdesert.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="floor" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkCMBswExOxBzEFDHB8T8QCxAQJ0YEIsDsQSJdmITw2YnNjFsdhLjDnS72YkIAxYgZiVCHQ8Q8wIxAKHtCWg=
+  </data>
+ </layer>
+ <layer name="wall" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAe6KHxFbCoMSDBPA0S1MKAJBBLYcHoQBGIVYBYCwmr4lCnjEUMBtShtCYQazOghoEmiW4nBgAAeRoDYQ==
+  </data>
+ </layer>
+ <objectgroup name="actor" width="10" height="10">
+  <object x="384" y="512" width="128" height="128">
+   <properties>
+    <property name="atk" value="3"/>
+    <property name="atkrange" value="2"/>
+    <property name="enemy" value="0"/>
+    <property name="life" value="15"/>
+    <property name="range" value="3"/>
+    <property name="tag" value="1"/>
+    <property name="texture" value="boss"/>
+   </properties>
+  </object>
+  <object x="512" y="1024" width="128" height="128">
+   <properties>
+    <property name="atk" value="3"/>
+    <property name="atkrange" value="2"/>
+    <property name="enemy" value="1"/>
+    <property name="life" value="14"/>
+    <property name="range" value="4"/>
+    <property name="tag" value="2"/>
+    <property name="texture" value="archer"/>
+   </properties>
+  </object>
+  <object x="896" y="896" width="128" height="128">
+   <properties>
+    <property name="atk" value="4"/>
+    <property name="atkrange" value="1"/>
+    <property name="enemy" value="0"/>
+    <property name="life" value="15"/>
+    <property name="range" value="5"/>
+    <property name="tag" value="3"/>
+    <property name="texture" value="leader"/>
+   </properties>
+  </object>
+  <object x="384" y="128" width="128" height="128">
+   <properties>
+    <property name="atk" value="2"/>
+    <property name="atkrange" value="1"/>
+    <property name="enemy" value="1"/>
+    <property name="life" value="15"/>
+    <property name="range" value="7"/>
+    <property name="tag" value="3"/>
+    <property name="texture" value="devil"/>
+   </properties>
+  </object>
+  <object x="896" y="256" width="128" height="128">
+   <properties>
+    <property name="atk" value="3"/>
+    <property name="atkrange" value="2"/>
+    <property name="enemy" value="0"/>
+    <property name="life" value="15"/>
+    <property name="range" value="3"/>
+    <property name="tag" value="1"/>
+    <property name="texture" value="boss"/>
+   </properties>
+  </object>
+  <object x="256" y="640" width="128" height="128">
+   <properties>
+    <property name="atk" value="3"/>
+    <property name="atkrange" value="2"/>
+    <property name="enemy" value="0"/>
+    <property name="life" value="14"/>
+    <property name="range" value="4"/>
+    <property name="tag" value="25"/>
+    <property name="texture" value="archer"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

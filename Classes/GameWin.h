@@ -1,0 +1,21 @@
+#ifndef __GameWin_SCENE_H__
+#define __GameWin_SCENE_H__
+
+#include "cocos2d.h"
+
+USING_NS_CC;
+
+class GameWin : public cocos2d::Layer
+{
+public:
+	
+	static cocos2d::Scene* createScene();
+	//初始化GameLayerLayer
+	bool init();
+	//返回上一个界面
+	
+
+	CREATE_FUNC(GameWin);
+};
+
+#endif
